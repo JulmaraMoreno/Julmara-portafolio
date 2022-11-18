@@ -32,7 +32,6 @@ width: 906px;
 height: 168px;
 left: calc(50% - 906px/2 + 52px);
 top: 286px;
-
 font-family: 'Courier New', Courier, monospace;
 font-weight: 400px;
 font-size: 60px;
@@ -109,6 +108,19 @@ line-height: 22px;
 text-align: center;
 color: #000000;
 }
+.tituloinformacion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    left: 100px;
+    top: 100%;
+    background: #ECBC96;
+    border-radius: 28px;
+    }
 .Tituloseccion2{
 justify-content: space-between;
 display: block;
@@ -176,19 +188,18 @@ font-style: normal;
 }
 
 .hope{
-    position: absolute;
-    width: 173px;
-    height: 731px;
-    left: 41px;
-    top: 1356px;
-}
-
-.hope1{
 position: absolute;
-width: 341px;
-height: 701px;
-left: 290px;
+width: 177px;
+height: 621px;
+left: 41px;
 top: 1356px;
+}
+.hope1{
+    position: absolute;
+    width: 331px;
+    height: 601px;
+    left: 290px;
+    top: 1356px;
 }
 
 .nam1{
